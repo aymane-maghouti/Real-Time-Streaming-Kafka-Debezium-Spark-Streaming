@@ -1,1 +1,3 @@
-# Real-Time-Streaming-Kafka-Debezium-Spark-Streaming
+# Real-Time-Data-Streaming-Kafka
+
+![architecture](images/Architecture.gif)

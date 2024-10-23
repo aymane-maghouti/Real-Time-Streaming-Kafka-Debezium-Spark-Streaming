@@ -1,0 +1,16 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: real-time-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/smartphones?useSSL=false&serverTimezone=UTC
+    username: root
+    password: aymane2002
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false

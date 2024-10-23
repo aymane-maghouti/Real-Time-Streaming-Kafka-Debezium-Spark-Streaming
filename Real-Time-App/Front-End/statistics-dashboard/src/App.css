@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #000; 
+  color: #fff; 
+  position: relative;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff; 
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-section .developer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; 
+}
+
+.header-section .developer span {
+  color: red; 
+}
+
+.header-section .last-updated {
+  font-size: 16px;
+  color: #aaa; 
+}
+
+.kpi-section {
+  display: flex;
+  justify-content: space-around; 
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.kpi-card {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1); 
+  text-align: center;
+  width: 220px;
+  height: 120px;
+}
+
+.kpi-card h4 {
+  font-size: 16px;
+  color: #aaa; 
+  margin-bottom: 8px;
+}
+
+.kpi-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.chart-container {
+  width: 100%;
+  height: 350px; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #222; 
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1); 
+}
+
+.charts-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;
+}
+
+.chart-card {
+  background-color: #222; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1); 
+  height: 300px; 
+  text-align: left;
+  color: #fff; 
+}
+
+.bar-chart {
+  background-color: #333; 
+}
+
+.donut-chart {
+  background-color: #444;
+}
+
+.stacked-histogram {
+  background-color: #555; 
+}
+
+.chart-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff; 
+}
+
+.chart-card .chart-title {
+  display: none; 
+}
+
+.charts-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;
+}
+
+.chart-card {
+  background-color: #222; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1); 
+  height: 300px;
+  text-align: left;
+  color: #fff; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.donut-chart {
+  background-color: #444;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.chart-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff; 
+}

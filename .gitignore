@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.mypy_cache/
+.pytest_cache/
+*.sqlite3
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.spec
+
+# IntelliJ IDEA / Java
+.idea/
+*.iml
+*.iws
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+# Logs
+logs/
+*.log
+
+# Compiled class file
+*.class
+
+# Windows
+Thumbs.db
+*.DS_Store
+
+# Linux
+*~
+
+# Maven
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Visual Studio Code
+.vscode/
+node_modules/
+dist/
+.env
+*.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React
+build/
+.DS_Store
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS
+.DS_Store
