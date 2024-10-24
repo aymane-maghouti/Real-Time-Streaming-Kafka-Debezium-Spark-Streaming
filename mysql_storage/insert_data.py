@@ -441,7 +441,6 @@ def insert_max_screen_size_per_sim_type(df, cursor):
     cursor.execute(delete_query)
 
     for index, row in pandas_df.iterrows():
-        # Prepare the SQL query
         insert_query = """
                      REPLACE INTO max_screen_size_per_sim_type (sim_type, max_screen_size, updated_at) 
                      VALUES (%s, %s, NOW());
@@ -458,7 +457,6 @@ def insert_max_screen_size_per_sim_type(df, cursor):
 
 
 def insert_data_mysql_max_screen_size_per_sim_type(batch_df, epoch_id):
-    # Establish the connection to the MySQL database
     conn = mysql.connector.connect(
         host='localhost',
         user='root',
@@ -467,10 +465,8 @@ def insert_data_mysql_max_screen_size_per_sim_type(batch_df, epoch_id):
     )
     cursor = conn.cursor()
 
-    # Pass the DataFrame to your function for processing and insertion
     update_mysql_with_kpis(batch_df, insert_max_screen_size_per_sim_type)
 
-    # Commit and close the connection
     conn.commit()
     cursor.close()
     conn.close()
@@ -483,7 +479,6 @@ def insert_data_mysql_max_screen_size_per_sim_type(batch_df, epoch_id):
 def send_batch_email_notification():
     global processed_record_count
 
-    # Only send an email if new records have been processed
     if processed_record_count >= 2:
         processed_record_count=0
         send_email()

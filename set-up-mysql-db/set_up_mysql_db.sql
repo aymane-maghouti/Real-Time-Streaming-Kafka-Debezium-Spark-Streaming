@@ -82,17 +82,6 @@ CREATE TABLE max_screen_size_per_sim_type (
 
 
 
-select * from max_battery_per_brand; -- good 
-select * from max_price_per_brand; -- good
-select * from max_price_per_sim_type; -- good
-select * from max_ram_per_brand; -- good
-select * from max_rom_per_sim_type; -- good
-select * from max_screen_size_per_sim_type; -- good
-select * from phones_per_brand; -- good
-select * from phones_per_sim_type; -- good
-select * from statistics_summary; -- good
 
-update statistics_summary
-set max_price = 25000;
 
 

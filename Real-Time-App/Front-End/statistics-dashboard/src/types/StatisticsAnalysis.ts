@@ -57,3 +57,7 @@ export interface StatisticsAnalysis {
     maxScreenSize: number;
   }
   
+  
+  
+  
+  
