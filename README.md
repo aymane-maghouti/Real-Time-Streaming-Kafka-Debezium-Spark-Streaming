@@ -227,7 +227,7 @@ Here's a preview of the real-time dashboard:
 
 ![Dashboard Overview](images/dashboard.png)
 
-you can watch the demo video <a href="https://youtu.be/iClZyC_TZyA" target="_blank">here</a> 
+you can watch the demo video <a href="https://www.youtube.com/watch?v=OeddlyLVAuQ" target="_blank">here</a> 
 
 ## Acknowledgments
 Special thanks to the teams and open-source communities behind Kafka, Spark Streaming, Debezium, and Docker for making this project possible.
