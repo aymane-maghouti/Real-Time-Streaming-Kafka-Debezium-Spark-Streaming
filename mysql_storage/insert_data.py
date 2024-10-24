@@ -8,8 +8,8 @@ def get_mysql_connection():
     # Update these connection details as per your MySQL setup
     conn = mysql.connector.connect(
         host='localhost',
-        user='root',
-        password='aymane2002',
+        user='your_username',
+        password='your_password',
         database='smartphones'
     )
     return conn
