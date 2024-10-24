@@ -136,7 +136,9 @@ services:
     networks:
       code-with-yu:
 
-networks:
+
+
+networks :
   code-with-yu:
     name: code-with-yu
     driver: bridge
